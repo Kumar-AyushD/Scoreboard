@@ -1,0 +1,95 @@
+@import url('https://cdn.jsdelivr.net/gh/mustafazeydani/Fonts/CursedTimerULiL/CursedTimerULiL.css');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: grey;
+}
+
+.container {
+    background-color: #1B244A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+}
+
+#s1 #s2 {
+    display: grid;
+}
+
+#c1 {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 82px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#score1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto ;
+    height: 120px;
+    width: 115px;
+    justify-content: center;
+    margin-left: 20px;
+    font-size: 80px;
+    font-family: Cursed Timer ULiL;
+    color: #F94F6D;
+}
+#score2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto ;
+    height: 120px;
+    width: 115px;
+    justify-content: center;
+    margin-left: 20px;
+    font-size: 80px;
+    font-family: Cursed Timer ULiL;
+    color: #F94F6D;
+}
+
+#c2 {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 82px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#s1>h1 {
+    margin-right: 20px;
+}
+#s2>h1 {
+    margin-left: 20px;
+}
+.buttons {
+    margin-left: 20px;
+}
+
+button {
+    width: 48px;
+    height: 30px;
+    background-color: #1B244A;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: rgb(160, 82, 82);
+}
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
